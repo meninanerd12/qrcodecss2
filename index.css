@@ -1,0 +1,43 @@
+@font-face{
+    font-family: [Outfit] ;
+    src: url(design\Outfit.zip);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    font-family: outfit;
+}
+.mainbod{
+    background-color: hsl(212, 45%, 89%);
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 12px 12px darkgrey;
+}
+.lilbod{
+    margin: auto;
+    margin-top: 50px;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 12px hsl(220, 15%, 55%);
+}
+#qrcode{
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.qrtext{
+    font-size: 17px;
+    color: hsl(218, 44%, 22%);
+}
+.qrtext2{
+    font-size: 15px;
+    color: gray;
+}
